@@ -1,0 +1,111 @@
+@charset "utf-8";
+body {
+	font: 75% sans-serif;
+	background: #f2f5f7;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+h1 {
+	padding-top: 15px;
+}
+.container {
+	width: 908px;
+	background: #f2f5f7;
+	margin: 0 auto;
+}
+.header {
+	background: #f2f5f7 url(/public/images/logo.png) right no-repeat;
+	height: 114px;
+	width: 908px;
+	display: block;
+}
+.menu {
+	float: left;
+	width:208px;
+	padding: 10px 0 10px 0;
+}
+.ui-menu {
+	width: 200px;
+}
+.content {
+	padding: 10px;
+	margin: 0 0 0 208px;
+}
+.footer {
+	padding: 10px 0;
+	background: #deedf7;
+}
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.mt-16 {
+	margin-top: 16px;
+}
+#editForm th {
+	text-align: left;
+	vertical-align: top;
+}
+
+#editForm input {
+	width: 500px;
+}
+
+#editForm input.spinner {
+	width: 474px;
+}
+
+#editForm textarea, #dlgForm textarea {
+	width: 498px;
+}
+
+#editForm select {
+	width: 504px;
+}
+
+#mainTable {
+	text-align: center;
+}
+
+.product-img {
+	width: 102px;
+	height: 102px;
+	display: block;
+	text-align: center;
+	border: 1px solid #deedf7;
+	float: left;
+	vertical-align: middle;
+}
+.product-info {
+	margin: 0 0 0 104px;
+	height: 104px;
+	display: block;
+	border: none;
+}
+.product-cat {
+	height: 104px;
+	display: block;
+	cursor: pointer;
+}
+.img-cat {
+	width: inherit;
+	height: inherit;
+}
+.product-price {
+	color: #e17009;
+}
+.product-sklad {
+	color: rgb(46, 110, 158);
+}
